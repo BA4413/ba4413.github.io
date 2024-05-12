@@ -4,11 +4,11 @@ const routes = [
     {
         path:"/",
         // alias: "/index",
-        component: () => import("@/page/index/index.vue")
+        component: () => import("../page/index/index.vue")
     },
     {
         path:"/article",
-        component: () => import("@/page/article/article.vue")
+        component: () => import("../page/article/article.vue")
     }
 ]
 

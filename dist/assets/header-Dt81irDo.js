@@ -1,1 +1,0 @@
-import{_ as c,o as t,c as a,F as n,p as _,e as l,d as o}from"./index-Q5srK3ea.js";const r={},s=e=>(_("data-v-a54f3826"),e=e(),l(),e),d=s(()=>o("h1",null,"被遗忘的场所",-1)),p=s(()=>o("h4",null,null,-1)),h=s(()=>o("hr",null,null,-1));function u(e,f){return t(),a(n,null,[d,p,h],64)}const m=c(r,[["render",u],["__scopeId","data-v-a54f3826"]]);export{m as H};

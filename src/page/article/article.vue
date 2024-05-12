@@ -1,7 +1,7 @@
 <script setup>
 
     import { ref, reactive } from 'vue';
-    import Header from '@/components/header.vue';
+    import Header from '../../components/header.vue';
 
 </script>
 
