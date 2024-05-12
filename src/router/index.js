@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router"
 const routes = [
     {
         path:"/",
-        // alias: "/index",
+        alias: "/index",
         component: () => import("../page/index/index.vue")
     },
     {
