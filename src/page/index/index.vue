@@ -9,16 +9,19 @@
     const lists = reactive({
         index: "首页",
         article: "文章",
-        picture: "图片"
+        picture: "图片",
+        img: "../assets/img/BA4413.jpg"
     })
 
 </script>
 
 <template>
     <Header />
-    <h3>施工中</h3><br>
-    1111
-    <!-- <h3>也不知道是睡着了还是似了……</h3> -->
+    <div class="flex-box">
+        
+        <h3>施工中</h3><br>
+        <!-- <h3>也不知道是睡着了还是似了……</h3> -->
+    </div>
 
     <ul>
         <li><router-link to="/index">{{ lists.index }}</router-link>
@@ -30,7 +33,7 @@
 
 <style scoped>
     h3, li{
-        font-family:  Verdana;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
         
     }
@@ -39,4 +42,9 @@
         color: rgb(255, 127, 127);
     }
 
+    .flex-box{
+        background-color: rgba(255, 176, 176, 0.18);
+        width: 300px;
+        height: fit-content;
+    }
 </style>
