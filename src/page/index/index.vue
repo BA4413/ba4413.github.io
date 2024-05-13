@@ -3,6 +3,7 @@
     import { ref, reactive } from 'vue';
     import { RouterLink } from 'vue-router';
     import Header from '@/components/header.vue';
+    import baImg from '@/assets/img/BA4413.jpg';
 
     
 
@@ -10,7 +11,6 @@
         index: "首页",
         article: "文章",
         picture: "图片",
-        img: "../assets/img/BA4413.jpg"
     })
 
 </script>
@@ -18,8 +18,10 @@
 <template>
     <Header />
     <div class="flex-box">
-        
+        <!-- <img :src="baImg" /> -->
         <h3>施工中</h3><br>
+        <h3>最近忙于转专业可能会慢些</h3><br>
+        <h3>还有页面没做适配，不要再跟我说怎么只有jio了</h3><br>
         <!-- <h3>也不知道是睡着了还是似了……</h3> -->
     </div>
 
@@ -44,7 +46,15 @@
 
     .flex-box{
         background-color: rgba(255, 176, 176, 0.18);
+        border: 2px solid rgba(255, 252, 252, 0.701);
         width: 300px;
         height: fit-content;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    img{
+        width: 200px;
+        height: 200px;
     }
 </style>
