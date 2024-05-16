@@ -26,21 +26,12 @@
 <style scoped>
   body{
     
-    background-image: url('/src/assets/img/background.png');
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)),
+    url('/src/assets/img/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
-  }
-  body::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: -2;
   }
 </style>
